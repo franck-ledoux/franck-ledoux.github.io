@@ -2,7 +2,7 @@
 layout: page
 title: Paul Bourmaud
 description: MCTS for hex blocking
-img:  
+img:
 importance: 4
 related_publications: false
 category: Phd
@@ -10,15 +10,15 @@ category: Phd
 
 **Advisors:** Franck Ledoux and Jean-Christophe Janodet (IBISC, Université d'Evry Val d'Esssone, Paris-Saclay)
 
-**Team:**  LIHPC, Université Paris-Saclay
+**Team:** LIHPC, Université Paris-Saclay
 
-*Phd thesis started October, 3, 2022*
+_Phd thesis started October, 3, 2022_
 
 ### Subject
 
 Preparing high-fidelity simulations that requires block-structured hexahedral meshes is extremely time consuming. Highly
 skilled engineers have to manually decompose CAD models into a set of hex-meshable structured blocks. This manual
-process, called *blocking* stage, is a bottleneck for incremental design and sensitivity analysis. At CEA DAM, the
+process, called _blocking_ stage, is a bottleneck for incremental design and sensitivity analysis. At CEA DAM, the
 blocking stage is performed using **MGX**, an interactive software dedicated to hexahedral block-structured mesh
 generation. **MGX** provides several basic features - creating or erasing a single block, cutting a set of blocks along
 a direction - and more advanced ones - putting an O-Grid structure with escaping faces on a set of selected blocks,
@@ -37,8 +37,8 @@ In the context of hexahedral meshing, and more specifically of block-structured 
 large dataset of blocking examples to train a supervised or unsupervised machine learning algorithm. We focus so on
 reinforcement learning (RL) techniques that requires less data. As an **environment**, we consider the block structure
 and the CAD Model we want to discretize. The **agent** we want to program corresponds to the engineer that uses MGX
-operations to create the expected block-structure. At each stage, the **agent** observes the **state** of the *
-*environment** and chooses an **action**, i.e. a MGX blocking operation, to apply. This action will change the block
+operations to create the expected block-structure. At each stage, the **agent** observes the **state** of the \*
+\*environment** and chooses an **action\*\*, i.e. a MGX blocking operation, to apply. This action will change the block
 structure, and this process is repeated until getting the expected block structure. The set of blocking operations will
 be limited to splitting a series of block along an edge, deleting a block, contracting and expanding column of blocks. A
 main difficulty of this work is that this small set quickly induces a huge set of potential actions to apply at each
@@ -52,8 +52,7 @@ stage of the process. In the context of reinforcement learning, the hex blocking
 - **known** -- the agent knows the objectives (getting a hex blocking structure that discretizes the CAD model) and the
   rules to follows (set of operations);
 
-Training an algorithm to solve this problem is challenging and means to consider long-term rewards -- *do we have
-finally generated a valid or an invalid block structure ?*-- and a huge set of actions to apply at each stage. The
+Training an algorithm to solve this problem is challenging and means to consider long-term rewards -- _do we have
+finally generated a valid or an invalid block structure ?_-- and a huge set of actions to apply at each stage. The
 objective of the Phd is to provide a first reinforcement learning algorithm that generates a MGX program that
 corresponds to build a hexahedral block structure for a given CAD shape.
- 

@@ -2,7 +2,7 @@
 layout: page
 title: Isaïe Muron
 description: Efficient mesh algorithms on massively parallel architecture
-img:  
+img:
 importance: 3
 related_publications: false
 category: Phd
@@ -10,9 +10,9 @@ category: Phd
 
 **Advisors:** F. Ledoux and C. Chevalier (CEA, LIHPC)
 
-**Team:**  LIHPC, Université Paris-Saclay
+**Team:** LIHPC, Université Paris-Saclay
 
-*Phd thesis started January, 22, 2024*
+_Phd thesis started January, 22, 2024_
 
 ### Subject
 

@@ -10,9 +10,9 @@ category: Phd
 
 **Advisors:** F. Ledoux and Jean-Christophe Janodet (IBISC, University of Evry, Paris-Saclay)
 
-**Team:**  LIHPC, University Paris-Saclay
+**Team:** LIHPC, University Paris-Saclay
 
-*PhD thesis started November, 1st, 2024*
+_PhD thesis started November, 1st, 2024_
 
 ### Subject
 

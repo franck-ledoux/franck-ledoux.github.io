@@ -2,7 +2,7 @@
 layout: page
 title: Sébastien Mestrallet
 description: Robust polycubes for block-structured hexahedral mesh, 2021-2024
-img:  
+img:
 importance: 1
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** F. Ledoux and C. Bourcier (CEA, DES)
 
-**Team:**  LIHPC, Université Paris-Saclay
+**Team:** LIHPC, Université Paris-Saclay
 
-*Phd thesis defended on November, 26, 2024*
+_Phd thesis defended on November, 26, 2024_
 
 ### Subject
 

@@ -2,7 +2,7 @@
 layout: page
 title: Simon Caldéran
 description: Interactive generation of block-structured hexahedral meshes
-img: 
+img:
 importance: 5
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Guillaume Hutzler (IBISC) and Franck Ledoux
 
-**Team:**  IBISC, Université Paris-Saclay
+**Team:** IBISC, Université Paris-Saclay
 
-*Phd thesis defended in May, 17, 2022*
+_Phd thesis defended in May, 17, 2022_
 
 ### Subject
 

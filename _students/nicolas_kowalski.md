@@ -2,7 +2,7 @@
 layout: page
 title: Nicolas Kowalski
 description: Domain partitioning using frame fields - applications to quadrilateral and hexahedral meshing
-img:  
+img:
 importance: 10
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Pascal Frey and Franck Ledoux
 
-**Team:**  Laboratoire Jacques Louis Lions, Université Paris 6
+**Team:** Laboratoire Jacques Louis Lions, Université Paris 6
 
-*Phd thesis defended in 2013*
+_Phd thesis defended in 2013_
 
 ### Subject
 

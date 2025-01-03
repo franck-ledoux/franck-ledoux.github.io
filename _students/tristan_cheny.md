@@ -2,7 +2,7 @@
 layout: page
 title: Tristan Cheny
 description: ...
-img:  
+img:
 importance: 2
 related_publications: false
 category: Phd
@@ -10,9 +10,9 @@ category: Phd
 
 **Advisors:** Dmitry Sokolov (Université de Lorraine), Franck Ledoux and Etienne Corman (CNRS)
 
-**Team:**  INRIA Pixel, LORIA, Nancy
+**Team:** INRIA Pixel, LORIA, Nancy
 
-*Phd thesis started in October, 20, 2024*
+_Phd thesis started in October, 20, 2024_
 
 ### Subject
 

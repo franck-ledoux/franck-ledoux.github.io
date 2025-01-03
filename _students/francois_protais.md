@@ -2,7 +2,7 @@
 layout: page
 title: François Protais
 description: Polycube-dominant meshing, 2019-2022
-img: 
+img:
 importance: 6
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Dmitry Sokolov (Université de Lorraine) and Franck Ledoux
 
-**Team:**  LORIA - Laboratoire Lorrain de Recherche en Informatique et ses Applications
+**Team:** LORIA - Laboratoire Lorrain de Recherche en Informatique et ses Applications
 
-*Phd thesis defended in October 21, 2022*
+_Phd thesis defended in October 21, 2022_
 
 ### Subject
 

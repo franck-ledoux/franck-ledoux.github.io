@@ -2,7 +2,7 @@
 layout: page
 title: Students
 permalink: /students
-description: I consider that PhD students as the most important and valuable resource to make research. I gather some items about Phd and post-doc students I supervise(d). 
+description: I consider that PhD students as the most important and valuable resource to make research. I gather some items about Phd and post-doc students I supervise(d).
 nav: true
 nav_order: 4
 display_categories: [Phd, Alumni]

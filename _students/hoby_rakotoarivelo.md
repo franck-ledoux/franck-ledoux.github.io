@@ -2,7 +2,7 @@
 layout: page
 title: Hoby Rakotoarivelo
 description: Irregular kernels co-design on manycore architectures, application to multi-scale anisotropic mesh adaptation in computational fluid dynamics, 2014-2018
-img: 
+img:
 importance: 8
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Franck Pommereau (IBISC) and Franck Ledoux
 
-**Team:**  IBISC - Informatique, BioInformatique, Systèmes Complexes, Université d'Evry, Paris-Saclay
+**Team:** IBISC - Informatique, BioInformatique, Systèmes Complexes, Université d'Evry, Paris-Saclay
 
-*Phd thesis defended in July 6, 2018*
+_Phd thesis defended in July 6, 2018_
 
 ### Subject
 

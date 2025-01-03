@@ -2,7 +2,7 @@
 layout: page
 title: Valentin Postat
 description: Representation and optimization of block-structured meshes using multi-agent systems
-img:  
+img:
 importance: 3
 related_publications: true
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Guillaume Hutzler (IBISC) and Franck Ledoux
 
-**Team:**  IBISC, Université Paris-Saclay
+**Team:** IBISC, Université Paris-Saclay
 
-*Phd thesis defended in January, 24, 2024*
+_Phd thesis defended in January, 24, 2024_
 
 ### Subject
 

@@ -2,7 +2,7 @@
 layout: page
 title: Sébastien Morais
 description: Study and obtention of exact, and approximation, algorithms and heuristics for a mesh partitioning problem under memory constraints
-img:  
+img:
 importance: 9
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Eric Angel, Franck Ledoux and Damien Regnault
 
-**Team:**  IBISC, Université Paris-Saclay
+**Team:** IBISC, Université Paris-Saclay
 
-*Phd thesis defended on November, 23, 2016*
+_Phd thesis defended on November, 23, 2016_
 
 ### Subject
 

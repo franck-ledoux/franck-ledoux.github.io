@@ -2,17 +2,17 @@
 layout: page
 title: Hubert Hirtz
 description: Mesh partitioning for multi-physics code load balancing , 2020-2023
-img:  
+img:
 importance: 4
 related_publications: false
-category: Alumni 
+category: Alumni
 ---
 
 **Advisors:** Franck Ledoux, Cédric Chevalier and Sébastien Morais (CEA, LIHPC)
 
-**Team:**  LIHPC, Université Paris-Saclay
+**Team:** LIHPC, Université Paris-Saclay
 
-*Phd thesis defended in December, 10, 2023*
+_Phd thesis defended in December, 10, 2023_
 
 ### Subject (in French)
 
@@ -42,4 +42,4 @@ instances pratiques de simulation multi-physiques (sur des maillages de dizaines
 Pour cela, les techniques utilisées dans les thèses précédentes devront être étendues et adaptées.
 D’autre part, l’implantation pratique des algorithmes sera effectuée dans le cadre du projet COUPE (COncUrrent
 PartitionEr), écrit en Rust dans un contexte multi-threads. De bonnes connaissances en théorie des graphes mais aussi en
-techniques d’optimisation discrète seront nécessaires pour mener à bien cette thèse. 
+techniques d’optimisation discrète seront nécessaires pour mener à bien cette thèse.

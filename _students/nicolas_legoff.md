@@ -2,7 +2,7 @@
 layout: page
 title: Nicolas Le Goff
 description: Construction of a conformal hexahedral mesh from volume fractions - theory and applications
-img:  
+img:
 importance: 7
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Jean-Christophe Janodet and Franck Ledoux
 
-**Team:**  IBISC, Université Paris-Saclay
+**Team:** IBISC, Université Paris-Saclay
 
-*Phd thesis defended in December, 17, 2020*
+_Phd thesis defended in December, 17, 2020_
 
 ### Subject
 

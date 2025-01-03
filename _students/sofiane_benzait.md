@@ -2,7 +2,7 @@
 layout: page
 title: Sofiane Benzait
 description: Generation and Adaptation for hybrid meshes using oriented metrics
-img:  
+img:
 importance: 4
 related_publications: false
 category: Alumni
@@ -10,9 +10,9 @@ category: Alumni
 
 **Advisors:** Franck Ledoux and Adrien Loseille (Gamma3, INRIA Saclay)
 
-**Team:**  Gamma3, INRIA Saclay, Institut polytechnique de Paris
+**Team:** Gamma3, INRIA Saclay, Institut polytechnique de Paris
 
-*Phd thesis defended in September 5, 2023*
+_Phd thesis defended in September 5, 2023_
 
 ### Subject
 
