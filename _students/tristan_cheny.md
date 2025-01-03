@@ -10,7 +10,7 @@ category: Phd
 
 **Advisors:** Dmitry Sokolov (Université de Lorraine), Franck Ledoux and Etienne Corman (CNRS)
 
-**Team:**  INRIA Pixel, LORIA, Nancy 
+**Team:**  INRIA Pixel, LORIA, Nancy
 
 *Phd thesis started in October, 20, 2024*
 

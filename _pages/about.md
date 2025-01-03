@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am member of the [LIHPC](https://www-hpc.cea.fr/en/red/LIHPC.htm) research lab and director of research at CEA, France. I work on designing and providing meshing algorithms and software for the purpose of numerical simulations. My main research interests are about: quadrilateral and hexahedral mesh generation, mesh adaptation and mesh partitioning.
+I am member of the [LIHPC](https://www-lihpc.cea.fr/en/index.html) research lab and director of research at CEA, France. I work on designing and providing meshing algorithms and software for the purpose of numerical simulations. My main research interests are about: quadrilateral and hexahedral mesh generation, mesh adaptation and mesh partitioning.
 
 In our team, we produce quadrilateral and hexahedral mesh generation for the purpose of hydrodynamics and areodynamics codes. In this context, preferred meshes are said **block-structured**. It is my main research topic. Today, I consider that *frame-field based global parameterizations*, including *Polycube*,  are the option to follow. As a complement, with researchers of [IBISC](https://www.ibisc.univ-evry.fr/en/), we investigate how to update block structures using reinforcement learning techniques.
  
