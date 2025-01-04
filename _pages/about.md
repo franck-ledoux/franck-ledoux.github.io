@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. LIHPC, CEA, Université Paris-Saclay.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: franck_ledoux.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> LiHPC, Teratec</p> 
+    <p> 2 Rue de la Piquetterie</p>
+    <p> 91680 Bruyères-le-Châtel</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am member of the [LIHPC](https://www-lihpc.cea.fr/en/index.html) research lab and director of research at CEA, France. I work on designing and providing meshing algorithms and software for the purpose of numerical simulations. My main research interests are about: quadrilateral and hexahedral mesh generation, mesh adaptation and mesh partitioning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In our team, we produce quadrilateral and hexahedral mesh generation for the purpose of hydrodynamics and areodynamics codes. In this context, preferred meshes are said **block-structured**. It is my main research topic. Today, I consider that _frame-field based global parameterizations_, including _Polycube_, are the option to follow. As a complement, with researchers of [IBISC](https://www.ibisc.univ-evry.fr/en/), we investigate how to update block structures using reinforcement learning techniques.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Generating meshes for numerical simulation codes raises the question of getting the "_right_" mesh. Trying to answer leads to investigate how to **generate/adapt a mesh considering data provided by the simulation code itself**. It means to adapt the mesh to numerical fields and not only to a geometrical shape.
+
+The last component of my research is **mesh partitioning**. It is a key feature for running HPC simulation codes efficiently. Our specificity is that we partition meshes and not graphs and we deal both with architecture constraints (MPI process, CPU threads, GPU threads) and code requirements (multi-stages physics, load balancing on the fly).
