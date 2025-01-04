@@ -158,14 +158,6 @@ Depending on your specified footer behavior, the sign up form either will appear
 
 Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it. Don't forget if you delete a page, to update the `nav_order` of the remaining pages.
 
-### Removing the blog page
-
-To remove the blog, you have to:
-
-- delete [\_posts](_posts/) directory
-- delete blog page [\_pages/blog.md](_pages/blog.md)
-- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives` and `latest_posts`
-
 You can also:
 
 - delete [\_includes/latest_posts.liquid](_includes/latest_posts.liquid)
@@ -186,19 +178,6 @@ To remove the news section, you can:
 - remove the `announcements` part in [\_config.yml](_config.yml)
 - remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
 
-### Removing the projects page
-
-To remove the projects, you can:
-
-- delete the [\_projects](_projects/) directory
-- delete the projects page [\_pages/projects.md](_pages/projects.md)
-- remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
-- remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
-
-You can also:
-
-- delete [\_includes/projects_horizontal.liquid](_includes/projects_horizontal.liquid)
-- delete [\_includes/projects.liquid](_includes/projects.liquid)
 
 ### Removing the publications page
 
@@ -220,12 +199,6 @@ You can also:
 - delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
 - remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
 
-### Removing the repositories page
-
-To remove the repositories, you can:
-
-- delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
-- delete [\_includes/repository/](_includes/repository/) directory
 
 ## Adding Token for Lighthouse Badger
 
