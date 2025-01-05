@@ -15,7 +15,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am member of the [LIHPC](https://www-lihpc.cea.fr/en/index.html) research lab and director of research at CEA, France. I work on designing and providing meshing algorithms and software for the purpose of numerical simulations. My main research interests are about: quadrilateral and hexahedral mesh generation, mesh adaptation and mesh partitioning.
