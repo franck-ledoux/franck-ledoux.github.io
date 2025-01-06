@@ -75,7 +75,8 @@ title = {Formal definition of hexahedral blocking operations using N-G-maps},
 year = {2023},
 booktitle = {SIAM International Meshing Roundtable 2023, Amsterdam, 6-9 March},
 publisher = {Springer Nature Switzerland},
-pdf={https://internationalmeshingroundtable.com/assets/papers/2023/12-Postat-compressed.pdf}
+pdf={https://internationalmeshingroundtable.com/assets/papers/2023/12-Postat-compressed.pdf},
+preview = {formal_def_gmap.png}
 }
 
 
@@ -169,7 +170,8 @@ author = {Simon Caldéran and Franck Ledoux and Guillaume Hutzler},
 title = {Dual-based user-guided hexahedral block generation using frame fields},
 year = {2019},
 booktitle = {28th International Meshing Roundtable, Buffalo, USA},
-pdf = {https://meshingroundtable.com/assets/papers/2019/26-Calderan-compressed.pdf}
+pdf = {https://meshingroundtable.com/assets/papers/2019/26-Calderan-compressed.pdf},
+preview = {simon_imr.png}
 }
 
 @inproceedings{legoff_admos_19,
@@ -226,7 +228,8 @@ doi = {https://doi.org/10.1016/j.cad.2018.04.012},
 url = {https://www.sciencedirect.com/science/article/pii/S0010448518302215},
 author = {Nicolas Ray and Dmitry Sokolov and Maxence Reberol and Franck Ledoux and Bruno Lévy},
 keywords = {Hex meshing, Parameterization, Mesh extraction},
-abstract = {We propose a robust pipeline that can generate hex-dominant meshes from any global parameterization of a tetrahedral mesh. We focus on robustness in order to be able to benchmark different parameterizations on a large database. Our main contribution is a new method that integrates the hexahedra (extracted from the parameterization) into the original object. The main difficulty is to produce the boundary of the result, composed of both faces of hexahedra and tetrahedra. Obviously, this surface must be a good approximation of the original object but, more importantly, it must be possible to remesh the volume bounded by this surface minus the extracted hexahedra (called void). We enforce these properties by carefully tracking and eliminating all possibilities of failure at each step of our pipeline. We tested our method on a large collection of objects (200+) with different settings. In most cases, we obtained results of very good quality as compared to the state-of-the-art solutions. To ease reproducing our results and benchmarks, we provide a C++ implementation of the pipeline in the supplemental materials.}
+abstract = {We propose a robust pipeline that can generate hex-dominant meshes from any global parameterization of a tetrahedral mesh. We focus on robustness in order to be able to benchmark different parameterizations on a large database. Our main contribution is a new method that integrates the hexahedra (extracted from the parameterization) into the original object. The main difficulty is to produce the boundary of the result, composed of both faces of hexahedra and tetrahedra. Obviously, this surface must be a good approximation of the original object but, more importantly, it must be possible to remesh the volume bounded by this surface minus the extracted hexahedra (called void). We enforce these properties by carefully tracking and eliminating all possibilities of failure at each step of our pipeline. We tested our method on a large collection of objects (200+) with different settings. In most cases, we obtained results of very good quality as compared to the state-of-the-art solutions. To ease reproducing our results and benchmarks, we provide a C++ implementation of the pipeline in the supplemental materials.},
+preview = {mind_the_gap.png}
 }
 
 @inproceedings{rakotoarivelo:hal-01609940,
@@ -305,6 +308,7 @@ title = {Analysis of non-meshable automatically generated frame fields},
 year = {2016},
 booktitle = {25th International Meshing Roundtable},
 pdf = {https://www.osti.gov/servlets/purl/1375569},
+preview = {viertel_2.png},
 abstract = {Recent methods for frame field generation in two and three dimensions are reviewed. Frame fields generated automatically in 2D and 3D are analyzed with respect to quad and hex mesh generation. Problems are identified with automatically generated frame fields that prevent mesh generation via current methods. Specifically, there exist geometries that contain limit cycles and cannot be parameterized or decomposed by separatrices of the frame field. In 3D, singularity lines occur that minimize the field curvature but do not align with the frame field. These types of singularities make it impossible to create a mesh that both follows the frame field, and simultaneously respects the singularity as an irregular node in the mesh. Specific examples are presented that illustrate these problems. For each example, streamlines are used to help visualize properties of the frame fields, problems are analyzed, and options to potentially mitigate such problems are discussed.}
 }
 
