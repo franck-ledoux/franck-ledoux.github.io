@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/students/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "To download my resume, click on the PDF button alongside.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
