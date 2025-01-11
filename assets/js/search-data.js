@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-students",
+          title: "students",
+          description: "PhD. and Post-doc Students I work(ed) with during the last years.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/students/";
+          },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
