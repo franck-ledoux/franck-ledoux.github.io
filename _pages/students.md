@@ -4,7 +4,7 @@ permalink: /students/
 title: students
 description: PhD. and Post-doc Students I work(ed) with during the last years.
 nav: true
-nav_order: 7
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
