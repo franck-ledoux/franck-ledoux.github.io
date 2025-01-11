@@ -12,7 +12,11 @@ profiles:
   - align: right
     #image: phd_sebastien.jpg
     content: arzhela_roperch.md
-    image_circular: false 
+    image_circular: false
+  - align: right
+    #image: phd_sebastien.jpg
+    content: tristan_cheny.md
+    image_circular: false
   - align: right
     #image: phd_sebastien.jpg
     content: isaie_muron.md
