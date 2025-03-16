@@ -14,7 +14,7 @@ profiles:
     content: arzhela_roperch.md
     image_circular: false
   - align: right
-    #image: phd_sebastien.jpg
+    image: phd_tristan.jpg
     content: tristan_cheny.md
     image_circular: false
   - align: right
