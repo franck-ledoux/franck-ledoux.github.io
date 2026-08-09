@@ -10,6 +10,10 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
+    image: phd_anais.jpg
+    content: anais_albarran.md
+    image_circular: false
+  - align: right
     image: phd_arzhela.jpg
     content: arzhela_roperch.md
     image_circular: false
