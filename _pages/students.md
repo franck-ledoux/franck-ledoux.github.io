@@ -10,23 +10,23 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: phd_anais.jpg
+    image: phd_anais.png
     content: anais_albarran.md
     image_circular: false
   - align: right
-    image: phd_arzhela.jpg
+    image: phd_arzhela.png
     content: arzhela_roperch.md
     image_circular: false
   - align: right
-    image: phd_tristan.jpg
+    image: phd_tristan.png
     content: tristan_cheny.md
     image_circular: false
   - align: right
-    image: phd_isaie.jpg
+    image: phd_isaie.png
     content: isaie_muron.md
     image_circular: false
   - align: right
-    image: phd_paul.jpg
+    image: phd_paul.png
     content: paul_bourmaud.md
     image_circular: false
   - align: right
