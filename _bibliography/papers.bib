@@ -151,8 +151,9 @@ booktitle = {2020 Proceedings of the SIAM Workshop on Combinatorial Scientific C
 year = {2020},
 chapter = {},
 pages = {85-95},
+preview = {sebastien_20.png},
 doi = {10.1137/1.9781611976229.9},
-URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611976229.9},
+pdf = {https://epubs.siam.org/doi/abs/10.1137/1.9781611976229.9},
 eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611976229.9},
     abstract = { Abstract Running numerical simulations on HPC architectures requires distributing data to be processed over the various available processing units. This task is usually done by partitioning tools, whose primary goal is to balance the workload while minimizing inter-process communication. However, they do not take the memory load and memory capacity of the processing units into account. As this can lead to memory overflow, we propose a new approach to address mesh partitioning by including ghost cells in the memory usage and by considering memory capacity as a strong constraint to abide. We model the problem using a bipartite graph and present a new greedy algorithm that aims at producing a partition according to the memory capacity. This algorithm focuses on memory consumption, and we use it in a multi-level approach to improving the quality of the returned solutions during the refinement phase. The experimental results obtained from our benchmarks show that our approach can yield solutions respecting memory constraints for instances where traditional partitioning tools fail. }
 }
@@ -343,8 +344,9 @@ volume = {105},
 pages = {42-54},
 year = {2018},
 issn = {0010-4485},
+preview = {nicolas_18.png},
 doi = {https://doi.org/10.1016/j.cad.2018.07.001},
-url = {https://www.sciencedirect.com/science/article/pii/S0010448518303981},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0010448518303981},
 author = {Nicolas {Le Goff} and Franck Ledoux and Steven Owen},
 keywords = {Hexahedral mesh, Interface reconstruction, Volume fraction, Volume preservation, Overlay grid},
 abstract = {In this work, we provide a new post-processing procedure for automatically adjusting node locations of an all-hex mesh to better match the volume of a reference geometry. This process is particularly well-suited for mesh-first approaches, as overlay grid ones. In practice, hexahedral meshes generated via an overlay grid procedure, where a precise reference geometry representation is unknown or is impractical to use, do not provide for precise volumetric preservation. A discrete volume fraction representation of the reference geometry MI on an overlay grid is compared with a volume fraction representation of a 3D finite element mesh MO. This work introduces the notion of localized discrepancy between MI and MO and uses it to design a procedure that relocates mesh nodes to more accurately match a reference geometry. We demonstrate this procedure on a wide range of hexahedral meshes generated with the Sculpt code and show improved volumetric preservation while still maintaining acceptable mesh quality.}
@@ -395,6 +397,7 @@ preview = {mind_the_gap.png}
   PAGES = {594--606},
   YEAR = {2017},
   MONTH = Aug,
+  preview = {hoby_17.png},
   DOI = {10.1007/978-3-319-64203-1\_43},
   KEYWORDS = {Anisotropic remeshing ; Irregular parallelism ; Manycore},
   PDF = {https://hal.science/hal-01609940v1/file/RLPlG-EP-2017.pdf},
@@ -409,10 +412,11 @@ journal = {Procedia Engineering},
 volume = {203},
 pages = {258-270},
 year = {2017},
+preview = {nicolas_17.png},
 note = {26th International Meshing Roundtable, IMR26, 18-21 September 2017, Barcelona, Spain},
 issn = {1877-7058},
 doi = {https://doi.org/10.1016/j.proeng.2017.09.805},
-url = {https://www.sciencedirect.com/science/article/pii/S1877705817328266},
+pdf = {https://www.sciencedirect.com/science/article/pii/S1877705817328266},
 author = {Nicolas {Le Goff} and Franck Ledoux and Steven Owen},
 keywords = {hexahedral mesh, interface reconstruction, volume fraction, volume preservation, overlay grid},
 abstract = {We propose a new post-processing procedure for automatically adjusting node locations of an all-hex mesh to better match the volume of a reference geometry. Hexahedral meshes generated via an overlay grid procedure, where a precise reference geometry representation is unknown or is impractical to use, do not provide for precise volumetric preservation. A discrete volume fraction representation of the reference geometry MI on an overlay grid is compared with a volume fraction representation of a 3D finite element mesh MO. This work proposes a procedure that uses the localized discrepancy between MI and MO to drive node relocation operations to more accurately match a reference geometry. We demonstrate this procedure on a wide range of hexahedral meshes generated with the Sculpt code and show improved volumetric preservation while still maintaining acceptable mesh quality.}
@@ -423,6 +427,7 @@ abstract = {We propose a new post-processing procedure for automatically adjusti
 author =  {Franck Ledoux and Bruno Lévy and Nicolas Ray and Dmitry Sokolov},
 title = {Hex-dominant meshing for CAD models with boundary-alignment constraints},
 year = {2017},
+preview = {hex_dom_17.png},
 booktitle = {VIII International Conference on Adaptive Modeling and
   Simulation (ADMOS 2017), Verbania, Italia, June 2017. CIMNE.
 },
@@ -437,8 +442,9 @@ pages = {123-135},
 year = {2016},
 note = {25th International Meshing Roundtable},
 issn = {1877-7058},
+preview = {hoby_16.png},
 doi = {https://doi.org/10.1016/j.proeng.2016.11.035},
-url = {https://www.sciencedirect.com/science/article/pii/S1877705816333409},
+pdf = {https://www.sciencedirect.com/science/article/pii/S1877705816333409},
 author = {Hoby Rakotoarivelo and Franck Ledoux and Franck Pommereau},
 keywords = {Irregular applications, Anisotropic Mesh Adaptation, Fine-grained parallel meshing, NUMA-aware algorithms.},
 abstract = {In this paper, we provide a fine-grained parallel scheme for anisotropic mesh adaptation on NUMA11Non-Uniform Memory Access architectures. Data dependencies are expressed by a graph for each kernel, and concurrency is extracted through fine-grained graph coloring. Tasks are structured into bulk-synchronous steps to avoid data races and to aggregate shared-data accesses. To ensure performance prediction, time cost and load imbalance are theoretically characterized. The devised scheme was evaluated on a 4 NUMA node (2-socket) machine, and a mean efficiency of 70% was reached on 32 cores for 3 kernels out of 4. The impact of irregular degree distribution and data layout on scalability is highlighted.}
@@ -449,7 +455,9 @@ abstract = {In this paper, we provide a fine-grained parallel scheme for anisotr
   author={Eric Angel and C{\'e}dric Chevalier and Franck Ledoux and S{\'e}bastien Morais and Damien Regnault},
   booktitle={European Conference on Parallel Processing},
   year={2016},
-  url={https://api.semanticscholar.org/CorpusID:26934870}
+  pdf={https://link.springer.com/chapter/10.1007/978-3-319-43659-3_15#citeas},
+  preview={sebastien_16.png},
+  doi = {https://doi.org/10.1007/978-3-319-43659-3_15},
 }
 
 
@@ -469,6 +477,7 @@ title = {Smoothness driven frame field generation for hexahedral meshing},
 journal = {Computer-Aided Design},
 volume = {72},
 pages = {65-77},
+preview = {kowalski_16.png},
 year = {2016},
 note = {23rd International Meshing Roundtable Special Issue: Advances in Mesh Generation},
 issn = {0010-4485},
@@ -489,7 +498,8 @@ address = {Berlin, Heidelberg},
 volume = {31},
 number = {3},
 issn = {0177-0667},
-url = {https://doi.org/10.1007/s00366-014-0387-5},
+preview = {kowalski_15.png},
+pdf = {https://doi.org/10.1007/s00366-014-0387-5},
 doi = {10.1007/s00366-014-0387-5},
 abstract = {In this paper, we present an algorithm for partitioning any given 2D domain into regions suitable for quadrilateral meshing. It is able to preserve the symmetry of the domain if any, and can deal with inner boundaries and multidomain geometries. Moreover, this method keeps the number of singularities at the junctions of the regions to a minimum. Although each part of the domain, being four-sided, can be easily meshed using a structured method, we provide a meshing process that guarantees near perfect quality for most quadrilaterals of the resulting mesh. The partitioning stage is achieved by solving a PDE-constrained equation based on the geometric properties of the domain boundaries. An analysis of the generated mesh quality is provided at the end, showcasing that the meshes obtained through our algorithm are especially suitable for finite element methods.},
 journal = {Eng. with Comput.},
@@ -505,10 +515,11 @@ journal = {Procedia Engineering},
 volume = {82},
 pages = {59-71},
 year = {2014},
+preview = {kowalski_14.png},
 note = {23rd International Meshing Roundtable (IMR23)},
 issn = {1877-7058},
 doi = {https://doi.org/10.1016/j.proeng.2014.10.373},
-url = {https://www.sciencedirect.com/science/article/pii/S187770581401652X},
+pdf = {https://www.sciencedirect.com/science/article/pii/S187770581401652X},
 author = {N. Kowalski and F. Ledoux and P. Frey},
 keywords = {Mesh, Hexahedra, block-structured, Frame fields},
 abstract = {In the past couple of years, techniques using 3D frame fields have emerged to design hexahedral meshes[1,2]. Those methods are based on a two-step process where a 3D frame field is built by assigning a frame to each cell of a tetrahedral mesh, then a parametrization algorithm is applied to generate a hexahedral mesh. In this paper, we propose a novel algorithm to generate block-structured hexahedral meshes for any CAD domain Ω. This work differs from previous ones in several points: (1) the proposed approach does not start from a pre-meshed boundary; (2) The frame field initialization does not put singularity lines around the medial object of Ω; (3) Frames are assigned to the vertices and not to the cells of the tetrahedral mesh; (4) We do not perform a parametrization process but we generate a block structure that partition Ω in meshable regions.}
@@ -619,11 +630,13 @@ and Weill, Jean-Christophe",
 title="A Constraint-Based System to Ensure the Preservation of Sharp Geometric Features in Hexahedral Meshes",
 booktitle="Proceedings of the 21st International Meshing Roundtable",
 year="2013",
+preview="IMR_2013.png",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="315--332",
 abstract="Generating a full hexahedral mesh for any 3D geometric domain is still a challenging problem. Among the different attempts, the octree-based methods are the most efficient from an engineering point of view. But the main drawback of such methods is the lack of control near the boundary. In this work, we propose an a posteriori technique based on the notion of the fundamental mesh in order to improve the mesh quality near the boundary. This approach is based on the resolution of a constraint problem defined on the topology of the CAD model that we have to discretize.",
-isbn="978-3-642-33573-0"
+isbn="978-3-642-33573-0",
+doi ="https://doi.org/10.1007/978-3-642-33573-0_19"
 }
 
 @article{10.5555/3225288.3225574,
@@ -684,12 +697,13 @@ keywords = {Hexahedral mesh, Set operations, Sheet operations}
   booktitle = {B.H.V. Topping, J.M. Adam, F.J. Pallarés, R. Bru and M.L. Romero, (Editors), "Developments and Applications in Engineering Computational Technology", Saxe-Coburg Publications, Stirlingshire, UK, Chapter 3},
   doi = {10.4203/csets.26.3},
   pages={49-80},
+  preview={gmds.png},
   year={2010},
   abstract ={One of the main building blocks of computational simulations is the mesh data structure. Depending on the numerical approximation methods or the meshing algorithm to implement, the mesh data structure can have to provide drastically different features. Some algorithms require a full tetrahedral mesh where nodes and tetrahedra are stored while others require a full hexahedral mesh with the knowledge of faces and specific topological connections. As each application requires different features, a usual issue is to develop a mesh data structure tailored for each application. We claim that this approach is not the right one in an industrial context. First, from a software engineering point of view, it is better to reuse existing solutions and thus to consider at least the object-oriented paradigm. Second, the development of a mesh data structure is a difficult and time-consuming task, especially in the high performance computing context (HPC) context, i.e. massive parallel distributed-memory architectures.
 For these reasons, the need for general meshing infrastructures has been recognised and several development efforts have been undertaken in the last few years. But none of these different solutions fits our requirements: we want a generic framework allowing the developer to select the type of cells and the incidence and adjacency relationships that must be stored in the mesh; the mesh data structure must efficiently support mesh modification in sequential and in parallel and it must not consume too much memory. This last point is particularly crucial in the HPC context. Indeed, HPC architectures tend to use more and more processors and to have a global distributed memory space that expands, but the memory space per processor tends to decrease. Thus, we have developed a mesh data framework which is a C++ library called GMDS, for generic mesh data structure. Generic is used here with two meanings: first, this data structure can handle any combination of available cells and connections; second, it is based on the generic programming paradigm. Currently, GMDS provides two mesh representations. The first one is a traditional cell-based model that is optimised in memory consumption while the second one is based on the combinatorial map model, which is greedier in memory consumption.
 
 In this chapter, we review different existing mesh representations and libraries and we describe the main specificity of the GMDS framework. Especially, we show how generic programming and the usage of local ids, instead of pointers, help us to minimise the memory consumption. We also show the parallelism model used in GMDS. This model is based on a traditional master-slave model that minimises the duplication of data on each processor. Moreover, we give some details about the cell migration process, which is implemented in GMDS},
-  url={https://www.ctresources.info/csets/chapter.html?id=428}
+  pdf={https://www.ctresources.info/csets/chapter.html?id=428}
 }
 
 
@@ -717,6 +731,7 @@ booktitle="Proceedings of the 16th International Meshing Roundtable",
 year="2008",
 doi ={10.1007/978-3-540-75103-8_13},
 publisher="Springer Berlin Heidelberg",
+preview={whisker_weaving.png},
 address="Berlin, Heidelberg",
 pages="215--232",
 abstract="In many FEM applications, hexahedral meshes are necessary to get the best results. However the automatic generation of an hexahedral mesh from an arbitrary 3D geometry still remains a challenge. In this paper, we propose an extension of the reliable Whisker Weaving algorithm [6]. The Whisker Weaving algorithm starts from a pre-meshed quadrilateral surface, it generates hexahedral meshes for a large spectrum of 3D geometries successfully, but it often creates poor-shaped hex elements. We show that considering geometric information in the shrinking loop selection process can provide better results. We introduce criteria to handle non-convex geometries, parallel loops and sheets bounded by several loops.",
