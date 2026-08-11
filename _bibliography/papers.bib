@@ -1,6 +1,92 @@
 ---
 ---
 
+@article{claire_cmame_26,
+title = {Automatic curved block structure and hexahedral mesh generation for hypersonic CFD},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {461},
+pages = {119209},
+year = {2026},
+issn = {0045-7825},
+preview = {claire_cmame_26.png},
+doi = {https://doi.org/10.1016/j.cma.2026.119209},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0045782526004822},
+author = {Claire Roche and Jérôme Breil and Simon Calderan and Thierry Hocquellet and Franck Ledoux},
+keywords = {Hexahedral mesh generation, Advancing front, Curved block structure, Computational fluid dynamics},
+abstract = {Hexahedral block-structured meshes are known as difficult to generate and are usually created manually using specialized interactive software. For industrial complex geometries, this process is highly time-consuming and hinders the numerical simulation process. Currently, automatic hexahedral mesh generation is a complex and open area of research. While some techniques show promise, they still fail to provide a suitable input for numerical simulations. In this work, we present a method for generating curved block-structured hexahedral meshes of the fluid domain surrounding vehicles for use in flow simulations of re-entry vehicles. This method is decomposed as follows: First, a linear block structure is extruded from the initial vehicle surface discretization using an advancing front process. Once this linear block structure has been generated, the block structure is curved a posteriori using Bézier polynomials. This improves the representation of the vehicle surface. Next, we generate a linear mesh from the curved blocks under constraints. The quality of the generated mesh is evaluated in two ways: First, we analyze it using purely geometrical criteria and then we use obtained meshed for numerical simulations of flows around re-entry vehicles.}
+}
+
+@inbook{survey_rl_26_imr,
+author = {Steven Owen and Nathan Brown and Nikos Chrisochoides and Rao Garimella and Xianfeng Gu and Franck Ledoux and Na Lei and Roshan Quadros and Navamita Ray and Nicolas Winovich and Yongjie Jessica Zhang},
+title = {AI for Mesh Generation and Model Preparation: A Review},
+booktitle = {Proceedings of the 2026 SIAM International Meshing Roundtable},
+chapter = {},
+pages = {1-21},
+year = {2026},
+preview = {ia_survey_imr_26.png},
+doi = {10.1137/1.9781611979138.1},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611979138.1},
+pdf  = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611979138.1},
+abstract = { Abstract Artificial intelligence is beginning to ease long-standing bottlenecks in the CAD-to-mesh pipeline. This survey reviews recent advances where machine learning aids part classification, mesh quality prediction, and defeaturing. We explore methods that improve unstructured and block-structured meshing, support volumetric parameterizations, and accelerate parallel mesh generation. We also examine emerging tools for scripting automation, including reinforcement learning and large language models. Across these efforts, AI acts as an assistive technology, extending the capabilities of traditional geometry and meshing tools. The survey highlights representative methods, practical deployments, and key research challenges that will shape the next generation of data-driven meshing workflows. }
+}
+
+
+
+@inbook{tristan_imr_26,
+author = {Tristan Cheny and Étienne Corman and Franck Ledoux and Nicolas Ray and Dmitry Sokolov},
+title = {Block-structured quadrilateral meshing using colored medial axis},
+booktitle = {Proceedings of the 2026 SIAM International Meshing Roundtable},
+chapter = {},
+pages = {298-310},
+preview = {tristan_imr_26.png},
+year = {2026},
+doi = {10.1137/1.9781611979138.23},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611979138.23},
+pdf = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611979138.23},
+    abstract = { Abstract Block-structured meshes are widely used in high-performance computing due to their efficiency in numerical simulations, memory access, and domain partitioning for parallel processing. Medial-axis-based algorithms have been considered as a promising approach for automatically decomposing a domain into quadrilateral blocks while ensuring a minimal number of singular vertices. TopMaker [14] is a notable example, providing a robust decomposition strategy. However, it suffers from limitations such as the capture of curved block boundaries, poor geometric quality, and the presence of non-quadrilateral blocks. In this paper, we propose an improved block decomposition method that enhances TopMaker by integrating integer optimization for subdivision selection and incorporating additional singular nodes to better approximate the domain geometry. Our approach assigns a mesh template to each point of the medial axis, greatly improving the block quality while ensuring a valid conforming quadrilateral decomposition. We evaluate our approach on a large range of 2D domains and demonstrate its ability to generate high-quality block-structured meshes. The results highlight the robustness, efficiency, and practicality of our method for automated quadrilateral block decomposition. Our method also extends to multi-material models with intricate internal constraints but at the cost of loss of some guarantees of the output mesh. }
+}
+
+@inbook{isaie_26_imr,
+author = {Isaïe Muron and Elyas Elaziz and Franck Ledoux and Cédric Chevalier},
+title = {Flexible Data Structures for Efficient and Reliable Shared-Memory Parallel Meshing},
+booktitle = {Proceedings of the 2026 SIAM International Meshing Roundtable},
+chapter = {},
+pages = {99-111},
+year = {2026},
+preview = {isaie_imr_26.png},
+doi = {10.1137/1.9781611979138.8},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611979138.8},
+pdf = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611979138.8},
+    abstract = { Abstract Parallelizing meshing algorithms presents significant challenges, in part due to the variety of operations involved in meshing kernels. These operations all have different characteristics; they may be read-heavy, write-heavy, affect topology or geometry, and may require allocation of new elements. These differences make it difficult to identify memory access patterns for correct synchronization, and eventually optimization. We aim to address these problems without relying on conflict avoidance, and propose an alternative approach to ensure data integrity in the context of generic sharedmemory parallel meshing. To that end, we leverage a specific mesh representation based on combinatorial maps, as well as Software Transactional Memory for synchronization. We illustrate the flexibility of our structure using three usual algorithms and their parallelization. We show STM manages conflicts with minimal algorithmic changes from original implementations. Our work offers a robust framework for parallel remeshing, with promising multi-thread performance. }
+}
+
+@inbook{arzhela_rl_26_imr,
+author = {Arzhela Roperch and Franck Ledoux and Jean-Christophe Janodet},
+title = {QuadOpt-RL: Reinforcement Learning Agent for Quad Mesh Optimization},
+booktitle = {Proceedings of the 2026 SIAM International Meshing Roundtable},
+chapter = {},
+year = {2026},
+pages = {22-34},
+preview = {arzhela_imr_26.png},
+doi = {10.1137/1.9781611979138.2},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611979138.2},
+pdf = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611979138.2},
+    abstract = { Abstract Mesh generation is a crucial stage in numerical simulations that can be very time-consuming for engineers. Although 2D quad meshing is considered a solved problem, we explore using Reinforcement Learning (RL) as an alternative approach. In this context, we teach an agent to interact with a mesh through a set of editing actions to improve the mesh quality. In this work we explore different modeling aspects to extend [11]. More specifically, we focus on optimizing TQuad meshes — that is, quad meshes obtained by splitting each triangle of a triangular mesh into three quads. We conduct several analyses focusing particularly on the mesh observation process and the RL algorithm employed. The result is an RL agent that can autonomously perform a series of operations that significantly improve quadrilateral meshes. }
+}
+
+
+@Inbook{legoff_imr_26,
+author="Paul Bourmaud and Nicolas Le Goff and Franck Ledoux and Jean-Christophe Janodet",
+chapter = {},
+title="Monte-Carlo Tree Search for Hexahedral Block-structured Mesh Generation",
+bookTitle="Research note in the 2026 SIAM International Meshing Roundtable",
+year="2026",
+pages="1--1",
+preview = {paul_imr_26.png},
+abstract="In an industrial context the creation of block-structured hexahedral meshes is costly in terms of engineering time, as they are generated using interactive CAD-meshing software. While some of those provide the tools necessary for decomposing a geometric model into smaller meshable sub-volumes, others are block-based, meaning that an engineer will instead edit an hexahedral block structure, or blocking, by using the operations at their disposal such as block creation, extrusion, split, deletion, pillowing, … while classifying the blocking entities onto the geometric ones to represent the model adequately. For a given model the engineer relies on their expertise to choose a sequence of operations that will produce a desirable blocking. We applied a single-player Monte Carlo Tree Search (SP-MCTS) to this decision-making problem, modelling it so that a state is the blocking and its entities’ association on the geometry and the set of possible actions is restricted to axis-aligned blocks split and block deletion. The classification of blocking entities onto the geometry is not part of the action set and is instead a heuristic, called at every step after an action on the blocking is taken. A reward function based on the number of geometric entities captured is used to evaluate the score of a state, the selection policy of the tree is a Single Player Upper Confidence Bound for Trees (SP-UCT) and the simulation policy is random. Our method was applied on a dataset of single-volume geometric models and we exhibit some preliminary results. In particular, on cases with axis-aligned features our SP-MCTS consistently returns valid blockings. We obtained mixed results where curved or non axis-aligned feature are concerned, and future works include introducing handling of those features by focusing on the classification heuristic and analysing the SP-MCTS behavior.",
+pdf="https://drive.google.com/file/d/1CWqjiXJaRj0KnBYLveVw5ihucMbYbWQm/view"
+}
+
 
 @inproceedings{mestrallet_imr_25,
 author = {Sébastien Mestrallet and Christophe Bourcier and Franck Ledoux},
