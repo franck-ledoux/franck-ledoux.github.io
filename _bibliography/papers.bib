@@ -268,6 +268,25 @@ keywords = {Hexahedral mesh, integer-grid map, polycube, block decomposition, du
 preview = {hex_survey.png}
 }
 
+@Inbook{LeGoff2022,
+author="Le Goff, Nicolas
+and Ledoux, Franck
+and Janodet, Jean-Christophe",
+editor="Sevilla, Rub{\'e}n
+and Perotto, Simona
+and Morgan, Kenneth",
+title="Intercode Hexahedral Meshing from Eulerian to Lagrangian Simulations",
+bookTitle="Mesh Generation and Adaptation: Cutting-Edge Techniques",
+year="2022",
+publisher="Springer International Publishing",
+preview="nicolas_22.png",
+pages="69--94",
+abstract="In this chapter, we deal with the problem of mesh conversion for coupling lagrangian and eulerian simulation codes. More specifically, we focus on hexahedral meshes, which are known as pretty difficult to generate and handle. Starting from an eulerian hexahedral mesh, i.e. a hexahedral mesh where each cell contains several materials, we provide a full-automatic process that generates a lagrangian hexahedral mesh, i.e. a hexahedral mesh where each cell contains a single material. This process is simulation-driven in the meaning that the we guarantee that the generated mesh can be used by a simulation code (minimal quality for individual cells), and we try and preserve the volume and location of each material as best as possible. In other words, the obtained lagrangian mesh fits the input eulerian mesh with high-fidelity. To do it, we interleave several advanced meshing treatments--mesh smoothing, mesh refinement, sheet insertion, discrete material reconstruction, discrepancy computation, in a fully integrated pipeline. Our solution is evaluated on 2D and 3D examples representative of CFD simulation (Computational Fluid Dynamics).",
+isbn="978-3-030-92540-6",
+doi="10.1007/978-3-030-92540-6_4",
+url="https://doi.org/10.1007/978-3-030-92540-6_4"
+}
+
 
 @article{https://doi.org/10.1111/cgf.14608,
 author = {Beaufort, P.-A. and Reberol, M. and Kalmykov, D. and Liu, H. and Ledoux, F. and Bommes, D.},
@@ -290,10 +309,10 @@ preview = {hex_me_if_you_can.png}
 author = {Nicolas Le Goff and Franck Ledoux and Jean-Christophe Janodet and Steve Owen},
 title = {Guaranteed quality-driven hexahedral overlay grid method},
 year = {2019},
+preview="nicolas_imr_19.png",
 booktitle = {28th International Meshing Roundtable, Buffalo, USA},
 pdf = {https://internationalmeshingroundtable.com/assets/papers/2019/21-LeGoff-compressed.pdf}
 }
-
 
 
 @inproceedings{calderan_imr_19,
@@ -309,6 +328,8 @@ preview = {simon_imr.png}
 author =  {Nicolas Le Goff and Franck Ledoux and Jean-Christophe Janodet and Steve Owen},
 title = {Hexahedral Overlay Grid Method with Guaranteed Element Quality},
 year = {2019},
+
+preview="nicolas_admos_19.png",
 booktitle = {IX International Conference on Adaptive Modeling and
   Simulation (ADMOS 2019), Alicante, Spain, May 2019. CIMNE},
 pdf = {https://congress.cimne.com/Admos2019/admin/files/fileabstract/a237.pdf}
@@ -338,7 +359,7 @@ title="Accurate Manycore-Accelerated Manifold Surface Remesh Kernels",
 bookTitle="27th International Meshing Roundtable",
 year="2019",
 publisher="Springer International Publishing",
-address="Cham",
+preview = "hoby_19.png",
 pages="405--423",
 abstract="In this work, we devise surface remesh kernels suitable for massively multithreaded machines. They fulfill the locality constraints induced by these hardware, while preserving accuracy and effectiveness. To achieve that, our kernels rely on: a point projection based on geodesic computations,a mixed diffusion-optimization smoothing kernel,an optimal direction-preserving transport of metric tensors,a fine-grained parallelization dedicated to manycore architectures.",
 isbn="978-3-030-13992-6",
