@@ -526,11 +526,12 @@ abstract = {In the past couple of years, techniques using 3D frame fields have e
 }
 
 
-@inproceedings{admos_17,
+@inproceedings{admos_13,
 author =  {Nicolas Le Goff and Franck Ledoux and Jean-Christophe Weill},
 title = {An imprinting algorithm to insert geometric details into hexahedral
   meshes},
 year = {2013},
+preview = {nico_admos_13.png},
 booktitle = { VI International Conference on Adaptive Modeling and Simulation (ADMOS 2013), pages 412--423, Lisbon, Portugal, June 2013.CIMNE.},
 pdf = {https://www.lacan.upc.edu/admos2013/proceedings/p99.pdf},
 abstract = {In numerous computational engineering applications, hexahedral meshes may be preferred over tetrahedral meshes. However, automatic hexahedral meshing remains an unsolved issue and thus generating a hexahedral mesh is known as a time-consuming stage that requires a lot of user interactions in the simulation process. A possible way for designing and optimizing a CAD model or a geometric shape requires parametric studies where the shape is enriched by inserting geometric details into it. Then we must ”adapt” the initial mesh and not generate it anew for each new detail taken into account. In order to perform such studies with hexahedral meshes, we provide an imprinting method allowing us to automatically add geometric details into an existing mesh. This addition is done using geometric projections, sheets (layers of hexahedral elements) insertions and combinatorial algorithms while preserving the hexahedral mesh structure as best as possible.}
@@ -544,9 +545,10 @@ volume = {231},
 number = {11},
 pages = {4324-4354},
 year = {2012},
+preview = {alexandra_12.png},
 issn = {0021-9991},
 doi = {https://doi.org/10.1016/j.jcp.2012.02.017},
-url = {https://www.sciencedirect.com/science/article/pii/S0021999112001064},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0021999112001064},
 author = {A. Claisse and B. Després and E. Labourasse and F. Ledoux},
 keywords = {Lagrangian hydrodynamic, Compressible gas dynamics, Exceptional points, Non conformal meshes, Godunov conservative scheme, Translation invariance, Symmetry preservation, Curved meshes},
 abstract = {The aim of this paper is the numerical simulation of compressible hydrodynamic strong implosions, which take place for instance in Inertial Confinement Fusion. It focuses in particular on two crucial issues, for such calculations: very low CFL number at the implosion center and approximation error on the initial geometry. Thus, we propose an exceptional points method, which is translation invariant and suitable to curved meshes. This method is designed for cell-centered Lagrangian schemes (GLACE [8], [13], [14], EUCCLHYD [25], [26], [27], [28], [29]). Several numerical examples on significant test cases are presented to show the relevance of our approach.}
@@ -560,6 +562,7 @@ issue_date = {July      2012},
 publisher = {Springer-Verlag},
 address = {Berlin, Heidelberg},
 volume = {28},
+preview = {fun_sheet.png},
 number = {3},
 issn = {0177-0667},
 abstract = {Depending upon the numerical approximation method that may be implemented, hexahedral meshes are frequently preferred to tetrahedral meshes. Because of the layered structure of hexahedral meshes, the automatic generation of hexahedral meshes for arbitrary geometries is still an open problem. This layered structure usually requires topological modifications to propagate globally, thus preventing the general development of meshing algorithms such as Delaunay's algorithm for tetrahedral meshes or the advancing-front algorithm based on local decisions. To automatically produce an acceptable hexahedral mesh, we claim that both global geometric and global topological information must be taken into account in the mesh generation process. In this work, we propose a theoretical classification of the layers or sheets participating in the geometry capture procedure. These sheets are called fundamental, or fun-sheets for short, and make the connection between the global layered structure of hexahedral meshes and the geometric surfaces that are captured during the meshing process. Moreover, we propose a first generation algorithm based on fun-sheets to deal with 3D geometries having 3- and 4-valent vertices.},
@@ -567,6 +570,7 @@ journal = {Eng. with Comput.},
 month = jul,
 pages = {241–253},
 numpages = {13},
+doi = {https://doi.org/10.1007/s00366-010-0207-5},
 keywords = {Mesh generation, Hexahedral mesh, Fundamental mesh, Dual mesh, Block-structured mesh}
 }
 
@@ -576,6 +580,7 @@ keywords = {Mesh generation, Hexahedral mesh, Fundamental mesh, Dual mesh, Block
   booktitle = {B.H.V. Topping, (Editor), "Proceedings of the Eighth International Conference on Engineering Computational Technology", Civil-Comp Press, Stirlingshire, UK, Paper 4},
   doi = {10.4203/ccp.100.4},
   year={2012},
+  preview = {cedric_12.png},
   abstract ={On large computers, numerical simulation codes run using distributed memory on a large number of processing units. This implies that many technical issues must be addressed to achieve good performance including: data distribution, data exchange between processes, load balancing, etc. In an industrial context, this can be addressed by using a development framework such as Arcane. Arcane manages all technical aspects while ensuring high performance using thousands of cores. In this paper the focus is on improving the timings for various dynamic mesh based multi-physics simulations by optimising the data distribution.
 The goal is to determine the assignment of the mesh entities on the processors in a way that the overall running time of the simulation is the lowest. This is mainly a load balancing problem which can be solved as a mesh partitioning problem. Graph or hypergraph partitioning tools, such as ParMetis, Scotch or Zoltan can be used to solve it. The paper demonstrates how to efficiently use these tools to solve load balancing issues.
 
@@ -595,6 +600,7 @@ Some issues with standard graph models for mesh and current graph partitioning t
   author={Charles De Bellabre and Franck Ledoux and Jean-Christophe Weill},
   booktitle = {B.H.V. Topping, (Editor), "Proceedings of the Eighth International Conference on Engineering Computational Technology", Civil-Comp Press, Stirlingshire, UK, Paper 32},
   year={2012},
+  preview = {charles_12.png},
   doi = {10.4203/ccp.100.32},
   abstract ={One of the main building blocks of computational simulations is the mesh data structure. Depending on the numerical approximation methods or the meshing algorithm to be implemented, the mesh data structure must provide drastically different features. In order to provide a single and uniform way to handle any type of meshes, general meshing infrastructures have been developed in the last few years. In this work, is on one of them, the C++ generic mesh data structure (GMDS) framework, which intensively uses generic programming, and allows users to select the mesh model, i.e. a combination of available cells and connections, that best fits their requirements.
 At compile-time, the GMDS provides a tailored mesh data structure both in computation time and memory footprint, which fits as best as possible the algorithm requirements. A mesh framework such as GMDS provides code sharing and a uniform access to any kind of mesh model whatever the developer's requirements. However, some main issues remain to be solved in an industrial context: how to select the mesh model that best fits the requirements of an algorithm? and how to combine algorithms requiring different mesh models without space memory duplication? In order to provide a first answer, a new level of abstraction has been added into GMDS: for any mesh model, at compile-time some pieces of C++ source code to retrieve the connections that are not kept in memory according to the mesh model are built. These pieces of source code are a direct implementation of combinatorial terms that must be exhibited to build missing connections. For instance, if an algorithm is built for a mesh model where nodes, edges and faces are available and the connection from faces to edges and edges to nodes are kept in memory, it is possible to obtain the nodes of a face by traversing its adjacent edges.
@@ -719,6 +725,7 @@ pages={34-45},
   doi = {10.1051/proc:2008028},
   pages={49-80},
   year={2008},
+  preview={boy_surface.png},
   abstract ={Hexahedral meshes are structured as a set of ordered layer of hexes which makes local topological modifications difficult to do. For instance, removing an hex generally implies to remove a complete layer of hexes. Few works focus on local topological modifications in hexahedral meshes. In this paper, we provide some results which extend and complete some existing works [1,14,15,17], proving in a first part that the flipping operations defined by M. BERN and D. EPPSTEIN are combinatorially free and showing in a second part how to introduce a Boy surface into a dual mesh. This operation allows us to modify the parity of the number of hexes in the primal mesh, thing that can not be done by the M. BERN and D. EPPSTEIN basis of operations.},
   pdf={https://www.esaim-proc.org/articles/proc/pdf/2008/03/proc082403.pdf}
 }
@@ -775,6 +782,7 @@ year="2002",
 publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="176--201",
+preview="casl_02.png",
 abstract="This paper presents an experiment that demonstrates the feasibility of successfully applying CASL to design 3D geometric modelling software. It presents an abstract specification of a 3D geometric model, its basic constructive primitives together with the definition of the rounding high-level operation. A novel methodology for abstractly specifying geometric operations is also highlighted. It allows one to faithfully specify the requirements of this specific area and reveals new mathematical definitions of geometric operations. The key point is to introduce an inclusion notion between geometric objects, in such a way that the result of an operation is defined as the smallest or largest object satisfying some pertinent criteria. This work has been made easier by using different useful CASL features, like first-order logic, free types or structured specifications. Some assets of this specification are to be abstract, readable by researchers in geometric modelling and to simplify the programming process.",
 isbn="978-3-540-45645-2",
 doi = {10.1007/3-540-45645-7_9}
